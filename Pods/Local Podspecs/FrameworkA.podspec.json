@@ -1,0 +1,39 @@
+{
+  "name": "FrameworkA",
+  "version": "0.0.2",
+  "summary": "A lightweight iOS framework for shared utilities.",
+  "description": "FrameworkA provides common utility classes and helpers \nto simplify development across multiple iOS projects. \nIt is modular, reusable, and easy to integrate using CocoaPods.",
+  "homepage": "https://github.com/ojimanda/FrameworkA.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yozi Reci Manda": "yozimanda11@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/ojimanda/FrameworkA.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "FrameworkA/**/*.{swift,h,m}",
+  "public_header_files": "frameworkA/**/*.h",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "NO",
+    "SWIFT_OBJC_INTERFACE_HEADER_NAME": "FrameworkA-Swift.h",
+    "SWIFT_INSTALL_OBJC_HEADER": "NO"
+  },
+  "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "Shimmer": [
+      "~> 1.0"
+    ],
+    "ActionSheetPicker-3.0": [
+      "2.7.1"
+    ]
+  },
+  "swift_version": "5.0"
+}

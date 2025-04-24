@@ -55,8 +55,6 @@
 		};
 		B9C85E962DB9F3BD00B35509 /* FrameworkBTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = FrameworkBTests;
 			sourceTree = "<group>";
 		};
@@ -91,7 +89,6 @@
 				5078A91F3E66E2E433E00396 /* Pods-FrameworkB-FrameworkBTests.debug.xcconfig */,
 				39A3BCDD844EE3229379B1CB /* Pods-FrameworkB-FrameworkBTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -336,7 +333,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = Z5CTNMQMC3;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -372,7 +369,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = Z5CTNMQMC3;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

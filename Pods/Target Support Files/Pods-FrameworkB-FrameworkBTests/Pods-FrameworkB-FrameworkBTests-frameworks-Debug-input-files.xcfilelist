@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-FrameworkB-FrameworkBTests/Pods-FrameworkB-FrameworkBTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FrameworkA/FrameworkA.framework
+${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework
