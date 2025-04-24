@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - FrameworkA (from `../FrameworkA`)
+  - FrameworkA (from `https://github.com/ojimanda/FrameworkA.git`, tag `0.0.2`)
 
 SPEC REPOS:
   trunk:
@@ -18,7 +18,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   FrameworkA:
-    :path: "../FrameworkA"
+    :git: https://github.com/ojimanda/FrameworkA.git
+    :tag: 0.0.2
+
+CHECKOUT OPTIONS:
+  FrameworkA:
+    :git: https://github.com/ojimanda/FrameworkA.git
+    :tag: 0.0.2
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
@@ -26,6 +32,6 @@ SPEC CHECKSUMS:
   FrameworkA: 16b233f1fd413937c08354681821f2f84f68eeff
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
 
-PODFILE CHECKSUM: 9a5ac8c171218aeab1734c533c94d0bce6584e00
+PODFILE CHECKSUM: 479a05f8bef551aaacedcc67423a255077678bcc
 
 COCOAPODS: 1.16.2
